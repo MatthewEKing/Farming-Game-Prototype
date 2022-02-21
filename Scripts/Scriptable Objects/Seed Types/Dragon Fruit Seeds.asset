@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2205665cb36955478fc1d6f590037eb, type: 3}
+  m_Name: Dragon Fruit Seeds
+  m_EditorClassIdentifier: 
+  name: Dragon Fruit
+  growthTimer: 30
+  spawnWhenFullyGrown: {fileID: 8993081136511723453, guid: 4e7874e302013b444aab46d444fca5e2, type: 3}
