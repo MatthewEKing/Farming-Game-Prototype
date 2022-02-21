@@ -23,17 +23,17 @@ public class SeedPicker : MonoBehaviour
         //seedList.Add(onionKnightSeed);
         //seedList.Add(dragonFruitSeed);00
 
-        if (seedList != null)
-        {
-            currentSeed = seedList[0];
-        }
+        //if (seedList[0] != null)
+        //{
+        //    currentSeed = seedList[0];
+        //}
     }
 
     void Update()
     {
         SwitchSeeds();
 
-        if (currentSeedText != null)
+        if (currentSeed != null)
         {
             currentSeedText.text = currentSeed.ToString();
         }
